@@ -4,6 +4,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "hardhat-circom";
 // circuits
 import circuits = require('./circuits.config.json')
+import 'dotenv/config'
 
 // set env var to the root of the project
 process.env.BASE_PATH = __dirname;
@@ -21,6 +22,12 @@ const config: HardhatUserConfig = {
         version: "0.6.11",
       }
     ]
+  },
+  networks: {
+    zkEVM: {
+      url: `https://polygon-zkevm-cardona.blockpi.network/v1/rpc/public`,
+      accounts: [process.env.PRIVATEKEY],
+    },
   },
   circom: {
     // (optional) Base path for input files, defaults to `./circuits/`
