@@ -4,7 +4,7 @@ This repository contains the implementation of a zkSNARK circuit that performs s
 
 ## Description
 
-This Circom project involves creating a zkSNARK circuit to demonstrate knowledge of specific logical inputs and their resulting output. The circuit implements logical gates, and the resulting proof is verified on-chain using a Solidity verifier contract deployed on the Polygon network (Cardona zkEVM or Sepolia or Mumbai Testnet).
+This Circom project involves creating a zkSNARK circuit to demonstrate knowledge of specific logical inputs and their resulting output. The circuit implements logical gates, and the resulting proof is verified on-chain using a verifier contract deployed on the Polygon network (Cardona zkEVM or Sepolia or Mumbai Testnet).
 
 ## Prerequisites
 
@@ -17,10 +17,11 @@ This Circom project involves creating a zkSNARK circuit to demonstrate knowledge
 
 ### Executing program
 
-1. To run this program, we can use VS Code or GitPod.
+1. To build and run this project, we can use VS Code or GitPod.
 2. Create a new file by clicking on the "+" icon in the left-hand sidebar.
 3. Clone the repository Harhat circom
 4. Design the code according to circuit mentioned below
+   
 ![image](https://github.com/user-attachments/assets/ffd9d76c-cd28-4635-b787-377f6275af47)
 
 ```
