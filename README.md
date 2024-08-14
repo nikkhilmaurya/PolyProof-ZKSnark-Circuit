@@ -19,10 +19,9 @@ This Circom project involves creating a zkSNARK circuit to demonstrate knowledge
 
 1. To build and run this project, we can use VS Code or GitPod.
 2. Create a new file by clicking on the "+" icon in the left-hand sidebar.
-3. Clone the repository Harhat circom
-4. Design the code according to circuit mentioned below
-   
-![image](https://github.com/user-attachments/assets/ffd9d76c-cd28-4635-b787-377f6275af47)
+3. Clone the repository Harhat circom.
+4. Design the code according to circuit mentioned below.
+![image](https://github.com/user-attachments/assets/b2ecc304-5c9e-4ed6-8b19-7ba18bc20612)
 
 ```
 pragma circom 2.0.0;
